@@ -1,1 +1,18 @@
-this is where is all begins
+ Elvis operator in Kotlin
+
+-- Used for checking null in Kotlin
+-- Kotlin has null safety, and therefore can declare values that can be marked as nullable, and then handled safetly
+-- A safe way of handling is to mark obejcts as nullable that can be made nullable
+-- !! foruncast, nullable values will not produce null value, will cause exception if null still comes
+-- can be handled by if condiiton or by using the elvis operator
+-- Use ? for nullable, and ?: for elvis operator
+-- use of multiple elvis is also possible value ?: def1 ?: def2 ?: def3
+-- use run {} for more than one statement 
+
+Casting in Kotlin
+
+-- use 'is' operator for casting 
+-- Smart case
+--- Complier tracks what action have been taken, if something is declared as 'is string' or not null then it tracks and doesnt need to be checked again
+--- Only works for local variables, if declared as var
+--- Only works for val is used internally 
